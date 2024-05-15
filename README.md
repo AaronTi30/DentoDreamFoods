@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dento Dream Foods
 
-## Getting Started
+## Group Member(s)
 
-First, run the development server:
+- Jose Antonio Teodoro
+- Aaron Thakordeen
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Proposal
+### React Website For Dento Dream Foods
+- React Website
+- Square E-Commerce 
+- Firebase Database
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Software: Android App (InnerHarmonyHealing) 
+&emsp;&emsp;Purpose: To sell products on a public domain as efficiently as possible.
+</br></br>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Database : Firebase
+&emsp;&emsp;Authentication and Realtime Database implemented to 'Web-app' formatting for React App
+</br></br>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Store Page
+&emsp;&emsp;•	Showcases products available for purchase.
+</br></br>
 
-## Learn More
+#### Product Page
+&emsp;&emsp;•	Showcases product with image, description, and options for the product. In this case it would be spice level and number of products the user would like to purchase.
+</br></br>
 
-To learn more about Next.js, take a look at the following resources:
+#### Shopping Cart Page
+&emsp;&emsp;•	Showcases products in cart that is added for purchase and given a button that will redirect the user to a third party payment page for final purchase.
+</br></br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
