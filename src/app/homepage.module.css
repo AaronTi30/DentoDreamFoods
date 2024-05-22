@@ -81,6 +81,70 @@
     top: 0;
     white-space: nowrap;
   }
+
+  .STORE-PAGE .text-wrapper-4 {
+    color: #000000;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    left: 31px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 446px;
+    white-space: nowrap;
+  }
+
+  .STORE-PAGE .text-wrapper-5 {
+    color: #000000;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    left: 31px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 446px;
+    white-space: nowrap;
+  }
+
+  .STORE-PAGE .text-wrapper-6 {
+    color: #000000;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    left: 310px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 446px;
+    white-space: nowrap;
+  }
+  .STORE-PAGE .text-wrapper-7 {
+    color: #000000;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    left: 31px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 446px;
+    white-space: nowrap;
+  }
+
+  .STORE-PAGE .text-wrapper-8 {
+    color: #000000;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    left: 31px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 446px;
+    white-space: nowrap;
+  }
   
   .STORE-PAGE .element-oz {
     height: 555px;
@@ -116,18 +180,6 @@
     width: 173px;
   }
   
-  .STORE-PAGE .text-wrapper-4 {
-    color: #000000;
-    font-family: "Inter-Light", Helvetica;
-    font-size: 20px;
-    font-weight: 300;
-    left: 31px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 446px;
-    white-space: nowrap;
-  }
   
   .STORE-PAGE .overlap-wrapper {
     height: 555px;
