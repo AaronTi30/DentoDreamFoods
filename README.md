@@ -11,7 +11,7 @@
 - Square E-Commerce 
 - Firebase Database
 
-### Software: Android App (InnerHarmonyHealing) 
+### Software: React Website 
 &emsp;&emsp;Purpose: To sell products on a public domain as efficiently as possible.
 </br></br>
 
