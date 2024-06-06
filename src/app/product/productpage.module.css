@@ -1,243 +1,61 @@
-.SHOPPINGCART-PAGE {
-    background-color: #ffffff;
+.PRODUCT-PAGE {
+    background-color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-  }
-  
-  .SHOPPINGCART-PAGE .div {
-    background-color: #ffffff;
+}
+
+.PRODUCT-PAGE .div {
+    background-color: #fff;
     border: 1px solid;
-    border-color: #000000;
+    border-color: #000;
     height: 1080px;
     position: relative;
     width: 1920px;
-  }
-  
-  .SHOPPINGCART-PAGE .product {
-    height: 220px;
-    left: 354px;
+}
+
+.PRODUCT-PAGE .screenshot {
+    height: 405px;
+    left: 491px;
+    object-fit: cover;
     position: absolute;
-    top: 173px;
-    width: 1224px;
-  }
-  
-  .SHOPPINGCART-PAGE .overlap {
-    background-color: #ffffff;
-    height: 220px;
-    position: relative;
-    width: 1212px;
-  }
-  
-  .SHOPPINGCART-PAGE .text-wrapper {
-    color: #000000;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 20px;
-    font-weight: 700;
-    left: 1137px;
-    letter-spacing: 0;
-    line-height: normal;
+    top: 241px;
+    width: 279px;
+}
+
+.PRODUCT-PAGE .text {
+    height: 255px;
+    left: 407px;
     position: absolute;
-    top: 95px;
-    white-space: nowrap;
-  }
-  
-  .SHOPPINGCART-PAGE .text-wrapper-2 {
-    color: #000000;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 20px;
-    font-weight: 700;
-    left: 1163px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 95px;
-    white-space: nowrap;
-  }
-  
-  .SHOPPINGCART-PAGE .text-wrapper-3 {
-    color: #000000;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 20px;
-    font-weight: 700;
-    left: 1109px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 95px;
-    white-space: nowrap;
-  }
-  
-  .SHOPPINGCART-PAGE .text-wrapper-4 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 20px;
-    font-weight: 400;
-    left: 1109px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 71px;
-    white-space: nowrap;
-  }
-  
-  .SHOPPINGCART-PAGE .text-wrapper-5 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 20px;
-    font-weight: 400;
-    left: 946px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 23px;
-    white-space: nowrap;
-  }
-  
-  .SHOPPINGCART-PAGE .text-wrapper-6 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 20px;
-    font-weight: 400;
-    left: 1137px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 47px;
-    white-space: nowrap;
-  }
-  
-  .SHOPPINGCART-PAGE .update-button {
-    all: unset;
-    box-sizing: border-box;
-    height: 31px;
-    left: 946px;
-    position: absolute;
-    top: 161px;
-    width: 105px;
-  }
-  
-  .SHOPPINGCART-PAGE .overlap-group {
-    height: 31px;
-    position: relative;
-    width: 103px;
-  }
-  
-  .SHOPPINGCART-PAGE .rectangle {
-    height: 31px;
+    top: 679px;
+    width: 510px;
+}
+
+.PRODUCT-PAGE .text-wrapper {
+    color: #000;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 40px;
+    font-weight: 300;
     left: 0;
+    letter-spacing: 0;
+    line-height: normal;
     position: absolute;
     top: 0;
-    width: 99px;
-  }
-  
-  .SHOPPINGCART-PAGE .text-wrapper-7 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 15px;
-    font-weight: 400;
-    left: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 8px;
-    width: 83px;
-  }
-  
-  .SHOPPINGCART-PAGE .cancel {
-    height: 25px;
-    left: 1160px;
-    object-fit: cover;
-    position: absolute;
-    top: 164px;
-    width: 25px;
-  }
-  
-  .SHOPPINGCART-PAGE .screenshot {
-    height: 208px;
-    left: 62px;
-    object-fit: cover;
-    position: absolute;
-    top: 3px;
-    width: 162px;
-  }
-  
-  .SHOPPINGCART-PAGE .subtotal {
-    height: 160px;
-    left: 645px;
-    position: absolute;
-    top: 393px;
-    width: 630px;
-  }
-  
-  .SHOPPINGCART-PAGE .CHECKOUT {
-    height: 160px;
-    width: 634px;
-  }
-  
-  .SHOPPINGCART-PAGE .overlap-2 {
-    background-color: #ffffff;
-    border-radius: 19px;
-    height: 160px;
-    position: relative;
-    width: 630px;
-  }
-  
-  .SHOPPINGCART-PAGE .text-wrapper-8 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 30px;
-    font-weight: 400;
-    left: 163px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 21px;
     white-space: nowrap;
-  }
-  
-  .SHOPPINGCART-PAGE .text-wrapper-9 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 30px;
+}
+
+.PRODUCT-PAGE .ingredients-chili {
+    color: #000;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 20px;
     font-weight: 400;
-    left: 352px;
+    left: 0;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 21px;
-    white-space: nowrap;
-  }
-  
-  .SHOPPINGCART-PAGE .BUY-BUTTON {
-    height: 67px;
-    left: 31px;
-    position: absolute;
-    top: 70px;
-    width: 570px;
-  }
-  
-  .SHOPPINGCART-PAGE .div-wrapper {
-    background-color: #f3a0b2;
-    border: 1px solid;
-    border-color: #000000;
-    border-radius: 19px;
-    height: 67px;
-    position: relative;
-    width: 568px;
-  }
-  
-  .SHOPPINGCART-PAGE .text-wrapper-10 {
-    color: #000000;
-    font-family: "Inter-Bold", Helvetica;
-    font-size: 25px;
-    font-weight: 700;
-    left: 152px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 18px;
-    white-space: nowrap;
-  }
-  
+    top: 124px;
+    width: 504px;
+}
+
+ 
