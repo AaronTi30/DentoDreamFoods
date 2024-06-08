@@ -1,5 +1,5 @@
 import React from "react";
-import * as classes from "./style.module.css";
+import * as classes from "./productpage.module.css";
 
 export const ProductPage = () => {
   return (
