@@ -4,36 +4,47 @@ import * as classes from "./homepage.module.css";
 export default function StorePage() {
   return (
     <div className={classes["STORE-PAGE"]}>
-      <div className={classes.div}>
-        <div className={classes.element}>
-          <img className={classes.screenshot} alt="8oz" src="./components/images/Screenshot_394.png" />
-          <div className={classes.text}>
-            <div className={classes["text-wrapper"]}>“4oz”</div>
-            <div className={classes["text-wrapper-2"]}>Signature Garlic Chili Oil</div>
-            <div className={classes["text-wrapper-3"]}>$12.00</div>
-          </div>
+      <div className="grid grid-cols-3 gap-4">
+        <div
+          className="w-full h-64 object-cover mb-6 rounded"
+          src="/"
+          alt="chili oil"
+        >
+          <h2 className="text-xl font-bold mb-4 text-center">
+            Signature Garlic Chili Oil
+          </h2>
+          <p className="text-gray-700 mb-4 text-center"> 8oz</p>
+          <p className="text-lg mb-4 text-center">15$</p>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Add to cart
+          </button>
         </div>
-      </div>
-      <div className={classes.div}>
-        <div className={classes.element}>
-          <img className={classes.screenshot} alt="8oz" src="./components/images/Screenshot_394.png" />
-          <div className={classes.text}>
-            <div className={classes["text-wrapper"]}>“8oz”</div>
-            <div className={classes["text-wrapper-2"]}>Signature Garlic Chili Oil</div>
-            <div className={classes["text-wrapper-3"]}>$25.00</div>
-          </div>
+        <div
+          className="w-full h-64 object-cover mb-6 rounded"
+          src="/"
+          alt="chili oil"
+        >
+          <h2 className="text-xl font-bold mb-4">Signature Garlic Chili Oil</h2>
+          <p className="text-gray-700 mb-4 text-center"> 8oz</p>
+          <p className="text-lg mb-4 text-center">20$</p>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Add to cart
+          </button>
         </div>
-      </div>
-      <div className={classes.div}>
-      <div className={classes.element}>
-        <img className={classes.screenshot} alt="8oz" src="./components/images/Screenshot_394.png" />
-        <div className={classes.text}>
-          <div className={classes["text-wrapper"]}>“16oz”</div>
-          <div className={classes["text-wrapper-2"]}>Signature Garlic Chili Oil</div>
-          <div className={classes["text-wrapper-3"]}>$35.00</div>
+        <div
+          className="w-full h-64 object-cover mb-6 rounded"
+          style={{ backgroundImage: "url(/chili-oil.jpg)" }}
+        >
+          <h2 className="text-xl font-bold mb-4">Signature Garlic Chili Oil</h2>
+          <p className="text-gray-700 mb-4 text-center"> 8oz</p>
+          <p className="text-lg mb-4 text-center">25$</p>
+          <div className="flex justify-center">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              Add to cart
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
   );
-};
+}
